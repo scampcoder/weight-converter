@@ -13,9 +13,17 @@
 
     <p>
       <label>Kilograms</label>
-      <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)">
+      <input id="inputKilograms" type="number" placeholder="Kilograms" oninput="kgtolbs(this.value)" onchange="kgtolbs(this.value)">
     </p>
     <p>Your weight in Pounds is: <span id="outputPounds"></span></p>
+
+    <p>Enter your weight in pounds:</p>
+
+    <p>
+      <label>Pounds</label>
+      <input id="inputPounds" type="number" placeholder="Pounds" oninput="lbstokg(this.value)" onchange="lbstokg(this.value)">
+      </p>
+      <p>Your weight in Kilograms is: <span id="outputKilograms"></span></p>
 
   </div>
   <script src="weight-converter.js"></script>

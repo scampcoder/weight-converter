@@ -1,4 +1,4 @@
-function weightConverter(valNum) {
+function kgtolbs(valNum) {
   //1kg=2.20462lbs
   valNum = valNum*2.2046;
   //set to no decimal places
